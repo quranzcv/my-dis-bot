@@ -1,0 +1,26 @@
+{
+  "name": "zone-19-bot",
+  "version": "1.0.0",
+  "description": "بوت تم تصميمه من قبل محمد غنايم",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "محمد غنايم",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.71",
+    "better-sqlite3": "^11.10.0",
+    "canvas": "^3.1.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "openai": "^4.104.0",
+    "path": "^0.12.7",
+    "quick.db": "^9.1.7",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
