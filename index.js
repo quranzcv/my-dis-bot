@@ -2229,8 +2229,6 @@ client.on('interactionCreate', async interaction => {
             interaction.user,
             reason
         );
-    }
-});
+    });
 
 
-client.login("MTI1MDk4NjQwNjkwNjQyOTQ2MQ.GnTu5D.H6gub4DmfHXeErqX5c6U7c7z_q44pkxcBPmkD8");
